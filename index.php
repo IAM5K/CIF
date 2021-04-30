@@ -105,12 +105,12 @@ $city_name= "Citywise";
 				
 					<div id="sidebar_title"><h3 align="center">Options</h3></div>					
 					<ul id="poption"> 
-					<!-- 	<li><a href='#'>
-							<img src='admin_area/option_images/hospital.png' width='40' height='40'/><p>hospital</p>
-							</a>
-						</li>   --> 
-	    				
-					<?php getPublicMenu(); ?>					
+						<!-- <li><a href='#'>
+								<img src='admin_area/option_images/hospital.png' width='40' height='40'/><p>hospital</p>
+								</a>
+							</li>   --> 
+							
+						<?php getPublicMenu(); ?>					
 					<ul>				
 				</div>
 	    		<!-- Side Bar Ends -->
