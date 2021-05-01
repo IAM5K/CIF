@@ -333,11 +333,12 @@ input::placeholder
 		background-color:#BDD8F1;
 		border-radius: 8px;
 		border: 8px solid white;
+		overflow-y: scroll;
 		
 	}
 	.news-feed ul{
-		padding:20px ;
-		padding-left: 50px;
+		padding:50px ;
+		padding-left: 90px;
 	}
 
 	/* Partition 3 Starts */

@@ -29,10 +29,10 @@ $city_name= "City";
 					<div id="sidebar_title">
 						<h3 align="center">Options</h3></div>					
 						<ul id="poption"> 
-							<li><a href='#'>
+							<!-- <li><a href='#'>
 									<img src='admin_area/option_images/hospital.png' width='40' height='40'/><p>hospital</p>
 									</a>
-								</li>   
+								</li>    -->
 								
 							<?php getPublicMenu(); ?>					
 						<ul>				
@@ -113,7 +113,7 @@ $city_name= "City";
 				<hr>
 
 
-				<h2>Don'ts</h2>
+				<h3>Don'ts</h3>
 				<ul>
 					<li>Don’t travel within the United States or abroad.</li>
 
