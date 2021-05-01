@@ -248,7 +248,7 @@ input::placeholder
 		border-radius: 8px;
 		border: 8px solid white;
 	}
-	
+
 	.location-icon
 	{
 		position: relative;
@@ -334,6 +334,10 @@ input::placeholder
 		border-radius: 8px;
 		border: 8px solid white;
 		
+	}
+	.news-feed ul{
+		padding:20px ;
+		padding-left: 50px;
 	}
 
 	/* Partition 3 Starts */

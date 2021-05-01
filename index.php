@@ -67,9 +67,28 @@ $city_name= "City";
 				</div>
 
 				<div class="news-feed">
+					<h2>What are the new symptoms</h2>
+					<ul>
+						
+					<li>fever</li>
+					<li>dry cough</li>
+					<li>tiredness</li>
+					<li>Less common symptoms:</li>
+					<li>aches and pains</li>
+					<li>sore throat</li>
+					<li>diarrhoea</li>
+					<li>conjunctivitis</li>
+					<li>headache</li>
+					<li>loss of taste or smell</li>
+					<li>a rash on skin, or discolouration of fingers or toes</li>
+					<li>Serious symptoms:</li>
+					<li>difficulty breathing or shortness of breath</li>
+					<li>chest pain or pressure</li>
+					<li>loss of speech or movement</li>
+					</ul>
 				
-				<h3></h3>
-				<h2>DO’s</h2>
+				<h2>How to Fight</h2>
+				<h3>DO’s</h3>
 				<ul>
 					<li>Do wear a cloth covering on your face at all times when you are not at home.</li>
 
