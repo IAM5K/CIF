@@ -23,16 +23,17 @@ function getPublicMenu()
   {
     global $db_con; 
     global $option_id;    
-    $get_option = "select * from public_menu ";    
+    $get_option = "select * from option_list WHERE type_name='Public' ";    
     $run_option = mysqli_query($db_con, $get_option);    
     while ($row_option=mysqli_fetch_array($run_option))
     {    
       $option_id = $row_option['option_id']; 
-      $option_title = $row_option['option_title'];
-      $option_icon = $row_option['option_icon'];
-      echo "<li><a href='#'><img src='admin_area/option_images/$option_icon' width='40' height='40'/><p>$option_title</p></a></li>  "; 
+      $option_name = $row_option['option_name'];
+    //   $option_icon = $row_option['option_icon'];
+      echo "<li><a href='#'><p>$option_name</p></a></li>  "; 
   }
 // index.php?option=$option_id'
+//<img src='admin_area/option_images/$option_icon' width='40' height='40'/>
 }
 
 function getCityupdate(){
@@ -60,8 +61,8 @@ function getLocalnews(){
 
 function fetchCitynews(){	
 	global $db_con;	
-	$city_input;
-	$get_news = "select * from local_news WHERE city_name='$city_input'";	
+	$city_name;
+	$get_news = "select * from local_news WHERE city_name='$city_name'";	
 	$run_news = mysqli_query($db_con, $get_news);	
 	while ($row_news=mysqli_fetch_array($run_news)){	
 		$news_id = $row_news['news_id']; 
